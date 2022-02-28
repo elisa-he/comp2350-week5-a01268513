@@ -9,6 +9,7 @@ const dbConfigHeroku = {
   database: "ynyzs3ul6unw819f",
   multipleStatements: false,
   reconnect: true,
+  namedPlaceholders: true,
 };
 
 const dbConfigLocal = {
@@ -18,6 +19,7 @@ const dbConfigLocal = {
   database: "test",
   multipleStatements: false,
   reconnect: true,
+  namedPlaceholders: true,
 };
 
 if (is_heroku) {
